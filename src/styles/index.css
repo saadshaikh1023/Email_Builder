@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+/* React Quill Styles */
+.ql-container {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  height: calc(100% - 42px) !important;
+}
+
+.ql-editor {
+  padding: 1rem !important;
+  min-height: 200px !important;
+}
+
+.ql-toolbar {
+  border-top-left-radius: 0.375rem !important;
+  border-top-right-radius: 0.375rem !important;
+}
+
+.ql-container {
+  border-bottom-left-radius: 0.375rem !important;
+  border-bottom-right-radius: 0.375rem !important;
+}
+
+/* Preview Styles */
+.preview-content {
+  @apply space-y-4;
+}
+
+.preview-content h1 {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.preview-content h2 {
+  @apply text-xl font-semibold text-gray-900;
+}
+
+.preview-content h3 {
+  @apply text-lg font-medium text-gray-900;
+}
+
+.preview-content p {
+  @apply text-base text-gray-700;
+}
+
+.preview-content ul,
+.preview-content ol {
+  @apply pl-5 space-y-1;
+  @apply text-base text-gray-700;
+}
+
+.preview-content ul {
+  @apply list-disc;
+  @apply text-base text-gray-700;
+}
+
+.preview-content ol {
+  @apply list-decimal;
+  @apply text-base text-gray-700;
+}
+
+.preview-content a {
+  @apply text-blue-600 hover:text-blue-700 underline;
+}
+
+/* Image Upload Styles */
+.image-upload-preview {
+  @apply relative mt-4;
+}
+
+.image-upload-preview img {
+  @apply rounded-lg shadow-sm;
+}

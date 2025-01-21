@@ -1,0 +1,19 @@
+.preview {
+    @apply bg-white rounded-lg overflow-hidden;
+  }
+  
+  .preview-content {
+    @apply p-6 space-y-4;
+  }
+  
+  .preview-content h1 {
+    @apply text-2xl font-bold text-gray-900;
+  }
+  
+  .preview-content img {
+    @apply max-w-full h-auto rounded-md;
+  }
+  
+  .preview-content footer {
+    @apply mt-4 pt-4 border-t text-sm text-gray-500;
+  }

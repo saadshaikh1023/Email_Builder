@@ -1,0 +1,3 @@
+.email-editor {
+    @apply w-full border-gray-300 rounded-md shadow-sm;
+  }
