@@ -21,3 +21,8 @@ cd email-builder-client
 npm run dev
 ```
 5. Access the app: Open your browser and go to http://localhost:3000.
+
+# Demo Image
+
+![image](https://github.com/user-attachments/assets/561ccc12-beb6-4227-a018-61106c486655)
+
