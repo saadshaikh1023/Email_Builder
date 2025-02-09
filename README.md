@@ -1,5 +1,5 @@
 # Email Builder
-
+Email Builder is a web-based tool that allows users to create and customize responsive email templates effortlessly. Built with React, Tailwind CSS, and Node.js, it provides a user-friendly drag-and-drop interface for designing professional emails without coding. The project aims to streamline email marketing by generating well-structured HTML emails compatible with major email clients.
 # Installation
 1. Clone Repo
 ```bash
